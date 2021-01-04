@@ -1,0 +1,134 @@
+nav {
+    /*  padding: 1vw;*/
+    margin: 1vw;
+}
+
+.hidden {
+    /* display: none;
+    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    display: inline-block;
+    position: relative;
+    top: 2vw;
+    left: 84vw;
+    font-size: 2.5rem;
+    color: #7e7e7e;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+
+}
+
+
+a {
+    text-decoration: none;
+    /* font-family: bulo-light; */
+    color: #7e7e7e;
+    padding: 0.5rem;
+    position: relative;
+    top: -11.5vw;
+    left: -3vw;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    padding: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET SKÆRM STØRRELSE */
+
+
+
+@media only screen and (min-width: 620px) {
+
+
+    #menuknap {
+        display: none;
+    }
+
+
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+
+    a {
+        display: flex;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 3vw;
+        left: 10vw;
+        font-size: xx-large;
+        padding: 30px;
+    }
+
+
+}
+
+
+
+/*PC SKÆRM STØRRELSE */
+
+@media only screen and (min-width: 800px) {
+    #menuknap {
+        display: none;
+    }
+
+
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+
+    a {
+        display: flex;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 3vw;
+        left: 30vw;
+        font-size: xx-large;
+        padding: 30px;
+    }
+
+
+}
