@@ -1,6 +1,95 @@
+* {
+    box-sizing: border-box;
+
+}
+
+img {
+    max-width: 100%
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F4F4F4;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #516477;
+    text-align: center;
+    position: relative;
+    top: -45vw;
+    /*    left: 6vw;*/
+    opacity: 0.6;
+    letter-spacing: 5px;
+    margin: 0.1px;
+}
+
+
+/*  #styletile*/
+h2 {
+    color: #3E4953;
+    /*    font-family: 'Montserrat', sans-serif;*/
+    font-size: 5rem;
+    font-weight: inherit;
+    text-shadow: 3px 3px 2px #B5C1CB;
+    display: grid;
+    padding: 2rem;
+    text-align: center;
+    margin: 3px;
+    padding: 22px;
+}
+
+
+
+
+h3 {
+    color: #3E4953;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* #styletile*/
+h4 {
+    color: #B5C1CB;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+
+
+/*  #styletile*/
+p {
+    color: #3E4953;
+    /*  font-family: 'Nunito Sans',
+  sans-serif;*/
+    font-size: 1rem;
+    line-height: 1.9;
+    font-weight: inherit;
+}
+
+
+/*Navigation*/
+
 nav {
     /*  padding: 1vw;*/
-    margin: 1vw;
+    margin: 0vw;
+    background-color: #DDE1E3;
+    height: 149px;
 }
 
 .hidden {
@@ -17,7 +106,7 @@ nav {
     top: 2vw;
     left: 84vw;
     font-size: 2.5rem;
-    color: #7e7e7e;
+    color: #516477;
 }
 
 #menu {
@@ -31,22 +120,44 @@ nav {
 a {
     text-decoration: none;
     /* font-family: bulo-light; */
-    color: #7e7e7e;
-    padding: 0.5rem;
+    color: #516477;
+    /*  padding: 0.5rem;*/
     position: relative;
     top: -11.5vw;
     left: -3vw;
     font-size: 1.8rem;
     display: block;
     text-align: center;
-    padding: 13px;
+    padding: 4px;
 }
 
 
 
 
 
+main img {
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
 
+
+.section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    color: #516477;
+    text-align: center;
+}
 
 
 
@@ -124,11 +235,20 @@ a {
         float: left;
         text-align: center;
         position: relative;
-        top: 3vw;
-        left: 30vw;
-        font-size: xx-large;
-        padding: 30px;
+        top: 0vw;
+        left: 17vw;
+        font-size: 3rem;
+        padding: 41px;
+        text-transform: uppercase;
     }
 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 8px;
+        width: 100%;
+        color: #516477;
+        text-align: center;
+    }
 
 }

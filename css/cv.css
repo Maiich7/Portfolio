@@ -1,0 +1,10 @@
+.zoom {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+}
+
+.zoom:hover {
+    width: 300px;
+    height: 300px;
+}
