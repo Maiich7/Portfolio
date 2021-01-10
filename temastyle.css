@@ -1,0 +1,189 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    color: #516477;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+img {
+    max-width: 100%
+}
+
+main {
+    max-width: 1200px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    background-color: #F4F4F4;
+
+
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #516477;
+    text-align: center;
+    position: relative;
+    top: -45vw;
+    /*    left: 6vw;*/
+    opacity: 0.6;
+    letter-spacing: 5px;
+    margin: 0.1px;
+}
+
+
+/*  #styletile*/
+h2 {
+    color: #3E4953;
+    /*    font-family: 'Montserrat', sans-serif;*/
+    font-size: 5rem;
+    font-weight: inherit;
+    text-shadow: 3px 3px 2px #B5C1CB;
+    display: grid;
+    padding: 2rem;
+    text-align: center;
+    margin: 3px;
+    padding: 22px;
+    text-align: center;
+}
+
+
+
+
+h3 {
+    color: #3E4953;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* #styletile*/
+h4 {
+    color: #516477;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-size: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+
+
+/*  #styletile*/
+p {
+    color: #3E4953;
+    /*  font-family: 'Nunito Sans',
+  sans-serif;*/
+    font-size: 1rem;
+    line-height: 1.9;
+    font-weight: inherit;
+}
+
+.button {
+    display: inline-block;
+    font-size: 10px;
+    margin: 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #DDE1E3;
+
+
+}
+
+.button1 {
+
+    /*   color: black;*/
+    border: 2px solid rgba(240, 240, 240, 0.72);
+    box-shadow: 1px 0px 10px 1px rgba(81, 100, 119, 0.54);
+    border-radius: 2em / 5em;
+    background-size: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    left: 32vw;
+    top: -6vw;
+}
+
+.button1:hover {
+    background-color: #B5C1CB;
+    color: white;
+}
+
+.knap {
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    font-size: 2rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 14px;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #3E4953;
+
+}
+
+@media only screen and (min-width: 620px) {
+    nav {
+        display: flex;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 0vw;
+        left: 39vw;
+        font-size: xx-large;
+        padding: 1px;
+        text-decoration: none;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        position: relative;
+        top: 13vw;
+        left: 5vw;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 1px;
+        text-align: center;
+    }
+
+
+    .button1 {
+        position: relative;
+        left: -24vw;
+        top: 8vw;
+    }
+
+
+
+
+
+}

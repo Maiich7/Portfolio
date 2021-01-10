@@ -161,12 +161,57 @@ main img {
 
 
 
+.grid-container1 {
+    background-color: #DDE1E3;
+}
+
+.grid-container2 {
+    background-color: #B5C1CB;
+}
 
 
 
 
+.button {
+    display: inline-block;
+    font-size: 10px;
+    margin: 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #DDE1E3;
 
 
+}
+
+.button1 {
+
+    /*   color: black;*/
+    border: 2px solid rgba(240, 240, 240, 0.72);
+    box-shadow: 1px 0px 10px 1px rgba(81, 100, 119, 0.54);
+    border-radius: 2em / 5em;
+    background-size: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    left: 28vw;
+}
+
+.button1:hover {
+    background-color: #B5C1CB;
+    color: white;
+}
+
+.knap {
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    font-size: 2rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 14px;
+    margin: 0px;
+
+}
 
 
 
@@ -249,4 +294,29 @@ main img {
         width: 100%;
         color: #516477;
         text-align: center;
+    }
+
+
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        background-color: #DDE1E3;
+        padding: 10px;
+    }
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        background-color: #516477;
+        padding: 10px;
+    }
+
+    .button {
+        left: 0vw;
+    }
+
+    h4 {
+        text-align: center
     }
