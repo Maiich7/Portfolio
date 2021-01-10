@@ -38,5 +38,28 @@ body {
         text-align: center;
     }
 
+    .overskift {
+        text-align: center;
+    }
+
+
+    .grid-container2 .button {
+        background: #516477;
+
+
+    }
+
+    .grid-container2 a {
+        color: #B5C1CB;
+    }
+
+    .grid-container2 .button1 {
+        box-shadow: 1px 0px 10px 1px #B5C1CB;
+    }
+
+    .grid-container2 .button1:hover {
+        background-color: #3E4953;
+        color: white;
+    }
 
 }
