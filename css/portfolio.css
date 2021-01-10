@@ -1,20 +1,89 @@
-/*PC SKÆRM STØRRELSE */
+body {
+    background: #DDE1E3;
+}
+
+.grid-container1 {
+    background-color: #DDE1E3;
+}
+
+.grid-container2 {
+    background-color: #B5C1CB;
+}
+
+/*PC ------------SKÆRM STØRRELSE---------- */
 
 @media only screen and (min-width: 800px) {
 
 
-    .grid-container {
+    .grid-container1 {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 10px;
-        background-color: rgba(62, 73, 83, 0.53);
+        background-color: #DDE1E3;
         padding: 10px;
     }
 
-    .grid-container > div {
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 4px solid #b5c1cb;
-        text-align: center;
-        font-size: 30px;
-        max-width: 585px;
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        background-color: #516477;
+        padding: 10px;
     }
+
+
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+    }
+
+    .button1 {
+
+        color: black;
+        border: 2px solid #4CAF50;
+        background-image: url(udklip.jpg);
+        background-size: auto;
+        font-size: 2rem;
+        font-weight: bold
+    }
+
+    .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+
+    .grid-container .lys {
+        background-color: aqua;
+    }
+
+
+    .grid-container2 h4 {
+        color: #DDE1E3;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+
+}
