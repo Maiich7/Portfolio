@@ -18,10 +18,9 @@ img {
 }
 
 main {
-    max-width: 1200px;
-
     padding: 10px;
     margin: 10px;
+    max-width: max-content;
 }
 
 body {
@@ -50,15 +49,15 @@ h1 {
 /*  #styletile*/
 h2 {
     color: #3E4953;
-    /*    font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 5rem;
     font-weight: inherit;
     text-shadow: 3px 3px 2px #B5C1CB;
     display: grid;
     padding: 2rem;
     text-align: center;
-    margin: 3px;
-    padding: 22px;
+    margin: 0px;
+    padding: 2px;
     text-align: center;
 }
 
@@ -152,55 +151,73 @@ p {
         text-decoration: none;
     }
 
-    div.gallery {
-        margin: 10px;
-        border: 1px solid #ccc;
-        float: left;
-        width: 180px;
+
+    .main_gallery {
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
         position: relative;
-        top: 13vw;
-        left: 5vw;
-    }
-
-    div.gallery:hover {
-        border: 1px solid #777;
-    }
-
-    div.gallery img {
+        top: -7vw;
+        left: 3vw;
         width: 100%;
-        height: auto;
     }
+}
 
-    div.desc {
-        padding: 1px;
-        text-align: center;
-    }
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    position: relative;
+    top: 7vw;
+    left: 6vw;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 1px;
+    text-align: center;
+}
 
 
-    .button1 {
-        position: relative;
-        left: -24vw;
-        top: 8vw;
-    }
+.button1 {
+    position: relative;
+    left: 4vw;
+    top: 1vw;
+    z-index: 1;
+}
 
-    .indhold {
-        width: 60%;
-        background-color: rgba(81, 100, 119, 0.46);
-        /* color: #F4F4F4;*/
-        text-align: left;
-        left: 300px;
-        top: 427px;
-        position: absolute;
-        /*top , sider , bund*/
-        padding: 15px 60px 15px;
-        margin: 10px;
-        border: 10px solid #B5C1CB;
-    }
+.indhold {
+    width: 78%;
+    background-color: rgba(81, 100, 119, 0.46);
+    color: #F4F4F4;
+    text-align: left;
+    left: 161px;
+    top: 440px;
+    position: absolute;
+    padding: 15px 60px 15px;
+    margin: 10px;
+    border: 10px solid #B5C1CB;
+}
 
-    .indhold p {
-        color: #20262a;
-    }
+.indhold p {
+    color: #20262a;
+}
 
+.gallery2 {
+    position: relative;
+    top: 7vw;
+    left: 6vw;
+}
 
 
 }
