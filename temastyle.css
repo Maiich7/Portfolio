@@ -1,8 +1,9 @@
 .footer {
     position: fixed;
     left: 0;
-    bottom: 8px;
+    bottom: 0;
     width: 100%;
+    background-color: #F4F4F4;
     color: #516477;
     text-align: center;
 }
@@ -152,7 +153,7 @@ p {
     }
 
     div.gallery {
-        margin: 5px;
+        margin: 10px;
         border: 1px solid #ccc;
         float: left;
         width: 180px;
@@ -182,7 +183,23 @@ p {
         top: 8vw;
     }
 
+    .indhold {
+        width: 60%;
+        background-color: rgba(81, 100, 119, 0.46);
+        /* color: #F4F4F4;*/
+        text-align: left;
+        left: 300px;
+        top: 427px;
+        position: absolute;
+        /*top , sider , bund*/
+        padding: 15px 60px 15px;
+        margin: 10px;
+        border: 10px solid #B5C1CB;
+    }
 
+    .indhold p {
+        color: #20262a;
+    }
 
 
 
