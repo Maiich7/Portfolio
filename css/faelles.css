@@ -86,10 +86,13 @@ p {
 /*Navigation*/
 
 nav {
-    /*  padding: 1vw;*/
+
+
     margin: 0vw;
     background-color: #DDE1E3;
-    height: 57px;
+    height: 152px;
+
+
 }
 
 .hidden {
@@ -255,6 +258,7 @@ main img {
 
 
 
+
 /*PC SKÆRM STØRRELSE */
 
 @media only screen and (min-width: 800px) {
@@ -262,7 +266,12 @@ main img {
         display: none;
     }
 
-
+    nav {
+        /*  padding: 1vw;*/
+        margin: 0vw;
+        background-color: #DDE1E3;
+        height: 57px;
+    }
 
     #menu.hidden {
         transform: translateX(0);
