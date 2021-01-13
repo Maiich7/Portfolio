@@ -26,10 +26,6 @@ body {
         text-align: center;
     }
 
-
-
-
-
     .grid-container2 h4 {
         color: #DDE1E3;
     }
@@ -45,8 +41,6 @@ body {
 
     .grid-container2 .button {
         background: #516477;
-
-
     }
 
     .grid-container2 a {
@@ -62,4 +56,57 @@ body {
         color: white;
     }
 
-}
+
+    .grid-container2 p {
+        color: #B5C1CB;
+        text-align: center;
+    }
+
+    .grid-container2 .text {
+        position: relative;
+        left: -50vw;
+        top: 5vw;
+    }
+
+    .grid-container2 .image {
+        position: relative;
+        left: 42vw;
+    }
+
+
+    .grid-container1 .text {
+        position: relative;
+        left: -3vw;
+        top: 2vw;
+
+    }
+
+    .grid-container1 .image {
+        position: relative;
+        left: 2vw;
+    }
+
+    .text1 {
+        position: relative;
+        left: -5vw;
+        top: 2vw;
+    }
+
+    main img {
+        width: 67%;
+        border: 1px;
+        padding: 26px;
+        position: relative;
+        left: 13vw;
+        margin: 2px;
+    }
+
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: auto 42%;
+        grid-gap: 10px;
+        background-color: #DDE1E3;
+        padding: 10px;
+        width: 100%;
+
+    }

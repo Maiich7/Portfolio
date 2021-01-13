@@ -231,14 +231,14 @@ p {
 
     .border {
         background-color: rgba(221, 225, 227, 0.44);
-        width: 273px;
+        width: 277px;
         border: 15px solid rgba(221, 225, 227, 0.71);
-        padding: 50px;
-        margin: 20px;
+        padding: 47px;
+        margin: -6px;
         position: relative;
-        top: -46vw;
-        left: 6vw;
-        height: 600px;
+        top: -54vw;
+        left: 4vw;
+        height: 608px;
 
 
     }
@@ -251,7 +251,7 @@ p {
         position: relative;
         top: 2vw;
         left: -2vw;
-        color: rgba(62, 73, 83, 0.58);
+        color: #2e3439;
         opacity: 1;
         letter-spacing: 8px;
         white-space: pre;
@@ -287,6 +287,49 @@ p {
             transform: translateY(-7vw)
         }
     }
-}
 
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+    }
+
+    main img {
+        width: auto;
+        border: 1px;
+        padding: 0px;
+        left: 13vw;
+        margin: 0px;
+        position: relative;
+        top: -5vw;
+        left: 0vw;
+    }
+
+    /*   h2 {
+       position: relative;
+       top: -3.65vw;
+       left: 0vw;
+   }*/
+
+
+/*    a {
+        display: flex;
+        float: left;
+        text-align: center;
+        position: relative;
+        top: -2.5vw;
+        left: 17vw;
+        font-size: 3rem;
+        padding: 41px;
+        text-transform: uppercase;
+    }*/
+
+    h2 {
+        position: relative;
+        bottom: -20vw;
+        color: rgba(62, 73, 83, 0.76);
+    }
 }

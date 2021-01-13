@@ -25,9 +25,14 @@ main {
 
 body {
     background-color: #F4F4F4;
-
-
 }
+
+a {
+    color: #516477;
+    font-size: 2rem;
+}
+
+
 
 h1 {
     color: aliceblue;
@@ -161,63 +166,93 @@ p {
         left: 3vw;
         width: 100%;
     }
-}
-
-div.gallery {
-    margin: 10px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    position: relative;
-    top: 7vw;
-    left: 6vw;
-
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 1px;
-    text-align: center;
-}
 
 
-.button1 {
-    position: relative;
-    left: 4vw;
-    top: 1vw;
-    z-index: 1;
-}
+    div.gallery {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        position: relative;
+        top: 7vw;
+        left: 6vw;
 
-.indhold {
-    width: 78%;
-    background-color: rgba(81, 100, 119, 0.46);
-    color: #F4F4F4;
-    text-align: left;
-    left: 161px;
-    top: 440px;
-    position: absolute;
-    padding: 15px 60px 15px;
-    margin: 10px;
-    border: 10px solid #B5C1CB;
-}
+    }
 
-.indhold p {
-    color: #20262a;
-}
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
 
-.gallery2 {
-    position: relative;
-    top: 7vw;
-    left: 6vw;
-}
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 1px;
+        text-align: center;
+    }
 
 
+    .button1 {
+        position: relative;
+        left: 4vw;
+        top: 1vw;
+        z-index: 1;
+    }
+
+    .indhold {
+        width: 78%;
+        background-color: rgba(81, 100, 119, 0.46);
+        color: #F4F4F4;
+        text-align: left;
+        left: 161px;
+        top: 468px;
+        position: absolute;
+        padding: 15px 60px 15px;
+        margin: 10px;
+        border: 10px solid #B5C1CB;
+    }
+
+    .indhold p {
+        color: #20262a;
+    }
+
+    .gallery2 {
+        position: relative;
+        top: 7vw;
+        left: 6vw;
+    }
+
+    .knap .button1 {
+        color: black;
+        border: 2px solid rgba(240, 240, 240, 0.72);
+        box-shadow: 1px 0px 10px 1px rgba(81, 100, 119, 0.54);
+        border-radius: 2em / 5em;
+        background-size: auto;
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        left: 32vw;
+        top: -6vw;
+    }
+
+    .knap .button {
+        display: inline-block;
+        font-size: 10px;
+        margin: 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: #DDE1E3;
+        position: relative;
+        top: 10vw;
+
+    }
+
+
+    .knap2 {
+        position: relative;
+        top: -1.5vw;
+        left: 14vw;
+    }
 }

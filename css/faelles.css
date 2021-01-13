@@ -89,7 +89,7 @@ nav {
     /*  padding: 1vw;*/
     margin: 0vw;
     background-color: #DDE1E3;
-    height: 149px;
+    height: 57px;
 }
 
 .hidden {
@@ -274,32 +274,32 @@ main img {
     }
 
 
-
     a {
         display: flex;
         float: left;
         text-align: center;
         position: relative;
-        top: 0vw;
+        top: -2.5vw;
         left: 17vw;
         font-size: 3rem;
         padding: 41px;
         text-transform: uppercase;
     }
 
+
     .footer {
         position: fixed;
         left: 0;
-        bottom: 8px;
+        bottom: 0;
         width: 100%;
+        background-color: #F4F4F4;
         color: #516477;
         text-align: center;
     }
 
-
     .grid-container1 {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto 42%;
         grid-gap: 10px;
         background-color: #DDE1E3;
         padding: 10px;
@@ -307,7 +307,7 @@ main img {
 
     .grid-container2 {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto 42%;
         grid-gap: 10px;
         background-color: #516477;
         padding: 10px;
@@ -319,4 +319,22 @@ main img {
 
     h4 {
         text-align: center
+    }
+
+    h3 {
+        background-color: lightgray;
+    }
+
+    p {
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    main img {
+        width: auto;
+        border: 1px;
+        padding: 0px;
+        left: 13vw;
+        margin: 0px;
     }
