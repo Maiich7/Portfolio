@@ -16,7 +16,11 @@ body {
     background-color: #F4F4F4;
     padding: 0;
     margin: 0;
+    height: 50vw;
+}
 
+html {
+    height: 50vw;
 }
 
 h1 {
@@ -347,3 +351,4 @@ main img {
         left: 13vw;
         margin: 0px;
     }
+}
